@@ -1,0 +1,65 @@
+# Logs & Environment
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.env
+.env.local
+*.local
+
+# Dependencies and Build Outputs
+node_modules/
+dist/
+dist-ssr/
+
+# Editor & System Files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local Research Datasets, Models, and Embeddings (Excluded from Git repository)
+Research/Glioma/datasets/
+Research/Breast Cancer/datasets/
+
+Research/Glioma/models/
+Research/Breast Cancer/models/
+
+Research/embeddings/
+
+# Research Working Material & Analysis Workspaces
+Research/literature/
+Research/papers/
+Research/repositories/
+Research/notebooks/
+Research/analysis/
+Research/dataset_audit/
+Research/experiments/
+Research/src/
+Research/Breast Cancer/Breast Cancer Transfer learning findings/
+
+# Academic / BTP Documents directly under Research/
+Research/*.pptx
+Research/*.ppt
+Research/*.docx
+Research/*.doc
+Research/*.pdf
+
+# Local Scratch & Temporary Workspace Files
+scratch/
+walkthrough.md
+
+
+
+# Additional BTP / research-only material
+Research/*.md
+Research/architecture/
+Research/config/
+Research/Glioma/reports/
+Research/Glioma/evaluation/results/
